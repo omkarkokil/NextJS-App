@@ -4,6 +4,7 @@ import { NextResponse } from "next/server"
 
 export const GET = async (request, { params }) => {
     const { id } = params
+    console.log(id);
     try {
         await connect()
 
